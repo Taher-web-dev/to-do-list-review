@@ -1,3 +1,4 @@
+/* define change function */
 const change = (e, toDoTasks) => {
   const targetElement = e.target.parentNode;
   const textElt = targetElement.querySelector('.task-description');
